@@ -1,6 +1,7 @@
 .portfolio {
 }
 .portfolio-title {
+  gap: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -8,10 +9,39 @@
   color: #2e2f42;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-item {
+  width: calc((100% - 24px * 2) / 3);
+  margin-bottom: 48px;
+}
+.portfolio-card {
+  width: 360px;
+  overflow: hidden;
 }
 .portfolio-pic {
+  display: block;
+  max-width: 100%;
+}
+.image-wrapper {
+  height: 300px;
+}
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
 }
 .portfolio-name {
   font-weight: 500;
