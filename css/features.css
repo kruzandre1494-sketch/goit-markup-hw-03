@@ -1,12 +1,9 @@
 .features {
 }
-.features-wrapper {
-  padding: 15px 0;
-}
 .features-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
 }

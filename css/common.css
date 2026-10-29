@@ -1,5 +1,11 @@
 /*Global Styles*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -60,6 +66,7 @@ address {
   color: #2e2f42;
 }
 .container {
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;

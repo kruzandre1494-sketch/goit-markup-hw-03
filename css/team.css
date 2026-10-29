@@ -1,4 +1,5 @@
 .team {
+  display: flex;
   background: #f4f4fd;
 }
 .team-title {
@@ -13,13 +14,15 @@
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .team-item {
-  width: calc((100% - 24px * 3) / 4);
-  background: #fff;
+  width: calc((100% - 72px) / 4);
 }
 .team-card {
-  width: 264px;
+  width: 100%;
   overflow: hidden;
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -30,15 +33,14 @@
 }
 .team-avatar {
   display: block;
-  max-width: 100%;
-}
-.image-wrapper {
-  height: 260px;
-}
-.image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.image-wrapper {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
 }
 .team-content {
   display: flex;
